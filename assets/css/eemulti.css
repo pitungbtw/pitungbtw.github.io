@@ -58,7 +58,7 @@ h1 {
 #intro{
     width: 100%;      
     min-height: 110vh;
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),url("/home/lenovo/Documents/PRAKTEK/RESUME/resume1/assets/img/resume-7.jpeg") fixed center;
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),url("https://pitungbtw.github.io/assets/img/resume-7.jpeg") fixed center;
     background-size: cover;
     position: relative;
     padding: 250px 0;
@@ -580,7 +580,7 @@ box-shadow: 0px 0px 3px 3px rgba(183, 183, 186, 1);
     padding: 7% 0;
     font-family: 'Raleway';
     font-style: normal;
-    background:url("/home/lenovo/Documents/PRAKTEK/RESUME/resume1/assets/img/resume-7.jpg") fixed center;
+    background:url("https://pitungbtw.github.io/assets/img/resume-7.jpg") fixed center;
   }
 
   #contact .card {
@@ -614,7 +614,7 @@ box-shadow: 0px 0px 3px 3px rgba(183, 183, 186, 1);
     
     height: 100px;
     width: 100%;
-    background:url("/home/lenovo/Documents/PRAKTEK/RESUME/resume1/assets/img/resume-7.jpg") fixed center;
+    background:url("https://pitungbtw.github.io/assets/img/resume-7.jpg") fixed center;
   }
 
   .bayang {
