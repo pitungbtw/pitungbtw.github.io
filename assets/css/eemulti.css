@@ -1,671 +1,672 @@
 :root{
-  --text-white: #fff;
-  --text-hitam: #000000;
-  --text-merah:#ce3333;
-  --text-intro:#eb6004;
-  --background-navbar:rgba(10, 11, 24, 0.589);
-  --background-about:rgb(30, 34, 90);
-}
-body,main,p {
-    font-style: normal;
-    text-decoration: none;
-}
-
-h1 {
-    font-style: normal;
-    font-weight: 800;
-}
-
-.navbar {
-    font-weight: 300;
-    visibility: visible;
-    text-decoration: none;
-    background: var(--background-navbar);
-}
-
-.navbar-brand{
-  font-weight: 500;
-  color : var(--text-white);
-}
-.navbar-brand:hover{  
-  color : var(--text-intro);
-  transform: scale(1.5,1.5);
-}
-
-.nav-item{
-    margin-left: 2%;
-}
-
-.navbar .nav-link {
+    --text-white: #fff;
+    --text-hitam: #000000;
+    --text-merah:#ce3333;
+    --text-intro:#eb6004;
+    --background-navbar:rgba(10, 11, 24, 0.589);
+    --background-about:rgb(30, 34, 90);
+  }
+  body,main,p {
+      font-style: normal;
+      text-decoration: none;
+  }
+  
+  h1 {
+      font-style: normal;
+      font-weight: 800;
+  }
+  
+  .navbar {
+      font-weight: 300;
+      visibility: visible;
+      text-decoration: none;
+      background: var(--background-navbar);
+  }
+  
+  .navbar-brand{
     font-weight: 500;
     color : var(--text-white);
-}
-.navbar .nav-link:hover {
-    border-bottom: 2px solid var(--text-intro);
-}
-
-@media (max-width: 600px) {
-  .navbar {
-    font-weight: 300;
-    visibility: visible;
-    background:#070707;
-    text-decoration: none;
-    }    
-}
-.mask{position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;overflow:hidden;background-attachment:fixed}
-
-#intro{
-    width: 100%;      
-    min-height: 110vh;
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),url("https://pitungbtw.github.io/assets/img/intro-1.webp") fixed center;
-    background-size: cover;
-    position: relative;
-    padding: 250px 0;
   }
-  #intro #particles-js {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 110%;
-    width: 100%;
+  .navbar-brand:hover{  
+    color : var(--text-intro);
+    transform: scale(1.5,1.5);
   }
-
-  #intro h1{
-    font-size: 60px;
-    margin-top:20%;
-    color : var(--text-white);
-    font-weight: 400;
- }
- 
- #intro h1 span{
-  color: var(--text-intro);
-}
-
-#intro h2{
-  margin-top: 35px;
-  color : var(--text-white);
-  font-weight: 400;
-}
-
-#intro .fa-brands{
-  font-size: 30px;
-  border: 1px solid #000;
-  border-radius: 50px;
-  padding:10px;
-  margin: 2% 2%;
-  line-height: 1;
-  color: var(--text-white);  
-  background: rgba(198, 225, 243, 1.0);
-  background: radial-gradient(at center, rgba(198, 225, 243, 1.0), rgba(1, 15, 51, 1.0));
-  -webkit-box-shadow:4px 4px 4px 0px rgba(62,66,66,0.63);
-  -moz-box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
-  filter: drop-shadow(3px 10px 14px  var(--text-white));
-}
-
-#intro .fa-brands:hover{
-  transform: scale(1.5,1.5);
-}
-#intro .img-fluid{
-  max-width: 130%;
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  filter: drop-shadow(3px 10px 14px  var(--text-white));
-}
-
-#intro .typing-text{
-  color: var(--text-intro);
-  font-weight: 400;
-}
-#intro .text-right{
-  text-align: right;
-}
- 
-@media (max-width: 600px) {
-    #intro {
+  
+  .nav-item{
+      margin-left: 2%;
+  }
+  
+  .navbar .nav-link {
+      font-weight: 500;
+      color : var(--text-white);
+  }
+  .navbar .nav-link:hover {
+      border-bottom: 2px solid var(--text-intro);
+  }
+  
+  @media (max-width: 600px) {
+    .navbar {
+      font-weight: 300;
+      visibility: visible;
+      background:#070707;
+      text-decoration: none;
+      }    
+  }
+  .mask{position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;overflow:hidden;background-attachment:fixed}
+  
+  #intro{
       width: 100%;      
       min-height: 110vh;
-      text-align: center;
+      background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),url("https://pitungbtw.github.io/assets/img/intro-1.webp") fixed center;
+      background-size: cover;
+      position: relative;
+      padding: 250px 0;
     }
-    
-    #intro .text-right{
-      text-align: center;
+    #intro #particles-js {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 110%;
+      width: 100%;
     }
+  
     #intro h1{
-      font-size: 35px;
+      font-size: 60px;
       margin-top:20%;
-      color: #024069;
+      color : var(--text-white);
+      font-weight: 400;
    }
-   #intro .fa-brands{
-    font-size: 25px;
-    color :#024069;
-   }
-}
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
-section {
-    padding: 80px 0;
-    overflow: hidden;
+   
+   #intro h1 span{
+    color: var(--text-intro);
   }
   
-  .section-title {
-    padding-bottom: 40px;
-  }
-  
-  .section-title h2 {
-    padding: 0;
-    line-height: 1px;
-    margin: 0 0 5px 0;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: var(--text-hitam);
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    filter: drop-shadow(3px 10px 14px  var(--text-white));
-  }
-  
-  .section-title h2::after/*, .section-title h2::before */{
-    content: "";
-    width: 120px;
-    height: 3px;
-    display: inline-block;
-    background: #ffde9e;
-    margin: 4px 10px;
-  }
-  
-  .section-title p {
-    margin: 0;
-    margin: 0;
-    font-size: 36px;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 100;
-    color: var(--text-hitam);
-  }
-  
-  .btn{    
+  #intro h2{
     margin-top: 35px;
-    border-radius: 5px;
-  }
-  
-  .btn{    
-    margin-top: 35px;
-    border-radius: 5px;
-    color: var(--text-white);
-    background: var(--text-merah);
-    filter: drop-shadow(3px 10px 14px  var(--text-white));
-    cursor: -webkit-grab; cursor: grab;
-  }
-
-  .btn:hover{    
-    background: radial-gradient(at center, rgba(198, 225, 243, 1.0), rgba(1, 15, 51, 1.0));
-    -webkit-box-shadow:4px 4px 4px 0px rgba(62,66,66,0.63);
-    -moz-box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
-    box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
-    filter: drop-shadow(3px 10px 14px  var(--text-white));
-    cursor: -webkit-grab; cursor: grab;
-  }
-  img{border-radius: 5px;}
-  /*--------------------------------------------------------------
-  # About
-  --------------------------------------------------------------*/
-  #about{
-    font-weight: 100;
-    padding: 7% 0;
-    font-family: 'Raleway';
-    font-style: normal;
-  }
-  #about .img-fluid{
-    max-width: 100%;
-    height:100%;
-    margin-top :0;
-    filter: drop-shadow(3px 10px 14px #313131);
-  }
-  #about h2{
-    font-weight: 500;
-    font-size: 40px;
-    padding-bottom: 20px;
-  }
-  #about .hitam{
-    font-size: 16px;
-    color:var(--text-hitam);
+    color : var(--text-white);
     font-weight: 400;
   }
   
-  #about .fa-brands, #about .fa-solid{
-    font-size: 40px;
+  #intro .fa-brands{
+    font-size: 30px;
     border: 1px solid #000;
     border-radius: 50px;
-    padding:15px;
+    padding:10px;
     margin: 2% 2%;
     line-height: 1;
-    color: var(--text-hitam);
-
-    background: radial-gradient(at center, rgba(198, 225, 243, 1.0), rgba(1, 15, 51, 1.0));
-    -webkit-box-shadow:4px 4px 4px 0px rgba(62,66,66,0.63);
-    -moz-box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
-    box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
-    filter: drop-shadow(3px 10px 14px  var(--text-white));
-  }
-
-  #about .icon{
-    width: 100%;
-    height: 270px;
-    padding-top: 10px;    
-    border-radius: 10px;
-    text-align: center;
-    color : var(--text-hitam);
-    font-weight: 400;
-    background: #f0eeee;
-
-    -webkit-box-shadow: 0px 0px 3px 3px rgba(183, 183, 186, 1);
--moz-box-shadow: 0px 0px 3px 3px rgba(183, 183, 186, 1);
-box-shadow: 0px 0px 3px 3px rgba(183, 183, 186, 1);
-  }
-  #about .icon:hover{
+    color: var(--text-white);  
     background: rgba(198, 225, 243, 1.0);
     background: radial-gradient(at center, rgba(198, 225, 243, 1.0), rgba(1, 15, 51, 1.0));
     -webkit-box-shadow:4px 4px 4px 0px rgba(62,66,66,0.63);
     -moz-box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
-    box-shadow: 10px 10px 10px rgb(46, 46, 46);
-    color: var(--text-white);
+    filter: drop-shadow(3px 10px 14px  var(--text-white));
   }
-  #about .g-md-5{
-    margin:auto;
-    /*align-items: center;*/
+  
+  #intro .fa-brands:hover{
+    transform: scale(1.5,1.5);
   }
-
-/*--------------------------------------------------------------
- skills
---------------------------------------------------------------*/
-#skills{
-  font-weight: 100;
-  padding: 7% 0;
-  font-family: 'Raleway';
-  font-style: normal;
-}
-#skills h2{
-  font-weight: 500;
-  font-size: 40px;
-  padding-bottom: 20px;
-}
-
-#skills .ri-code-box-fill, .ri-html5-fill, .ri-article-fill{
-  font-size: 40px;
-  border: 1px solid #000;
-  border-radius: 50px;
-  padding:10px;
-  color: var(--text-white);
-  background: rgba(198, 225, 243, 1.0);
-  background: radial-gradient(at center, rgba(198, 225, 243, 1.0), rgba(1, 15, 51, 1.0));
-  -webkit-box-shadow:4px 4px 4px 0px rgba(62,66,66,0.63);
-  -moz-box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
-}
-
-#skills ol ul {
-  color: var(--text-hitam);
-  font-weight: 500;
-}
-.progress {
-  background: rgba(255,255,255,0.1);
-  justify-content: flex-start;
-  align-items: center;
-  position: relative;
-  padding: 0 15px;
-  /*display: flex;*/
-  height: 60px;
-  width: auto;
-}
-
-.progress-value-1 {
-  animation: load-1 3s normal forwards;
-  border-radius: 50px;
-  border: 1px solid #000;
-  height: 20px;
-  width: 0;
-  background: rgba(198, 225, 243, 1.0);
-  background: radial-gradient(at center, rgba(198, 225, 243, 1.0), rgba(1, 15, 51, 1.0));
-  -webkit-box-shadow:4px 4px 4px 0px rgba(62,66,66,0.63);
-  -moz-box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
-}
-
-@keyframes load-1 {
-  0% { width: 0; }
-  100% { width: 80%; }
-}
-
-
-.progress-value-2 {
-  animation: load-2 3s normal forwards;
-  border-radius: 50px;
-  border: 1px solid #000;
-  height: 20px;
-  width: 0;
-  background: rgba(198, 225, 243, 1.0);
-  background: radial-gradient(at center, rgba(198, 225, 243, 1.0), rgba(1, 15, 51, 1.0));
-  -webkit-box-shadow:4px 4px 4px 0px rgba(62,66,66,0.63);
-  -moz-box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
-}
-
-@keyframes load-2 {
-  0% { width: 0; }
-  100% { width: 75%; }
-}
-
-.progress-value-3 {
-  animation: load-3 3s normal forwards;
-  border-radius: 50px;
-  border: 1px solid #000;
-  height: 20px;
-  width: 0;
-  background: rgba(198, 225, 243, 1.0);
-  background: radial-gradient(at center, rgba(198, 225, 243, 1.0), rgba(1, 15, 51, 1.0));
-  -webkit-box-shadow:4px 4px 4px 0px rgba(62,66,66,0.63);
-  -moz-box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
-}
-
-@keyframes load-3 {
-  0% { width: 0; }
-  100% { width: 80%; }
-}
-
-.progress-value-4 {
-  animation: load-4 3s normal forwards;
-  border-radius: 50px;
-  border: 1px solid #000;
-  height: 20px;
-  width: 0;
-  background: rgba(198, 225, 243, 1.0);
-  background: radial-gradient(at center, rgba(198, 225, 243, 1.0), rgba(1, 15, 51, 1.0));
-  -webkit-box-shadow:4px 4px 4px 0px rgba(62,66,66,0.63);
-  -moz-box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
-}
-
-@keyframes load-4 {
-  0% { width: 0; }
-  100% { width: 75%; }
-}
-
-.progress-value-5 {
-  animation: load-5 3s normal forwards;border-radius: 50px;
-  border: 1px solid #000;
-  height: 20px;
-  width: 0;
-  background: rgba(198, 225, 243, 1.0);
-  background: radial-gradient(at center, rgba(198, 225, 243, 1.0), rgba(1, 15, 51, 1.0));
-  -webkit-box-shadow:4px 4px 4px 0px rgba(62,66,66,0.63);
-  -moz-box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
-}
-
-@keyframes load-5 {
-  0% { width: 0; }
-  100% { width: 75%; }
-}
-
-.progress-value-6 {
-  animation: load-6 3s normal forwards;
-  border-radius: 50px;
-  border: 1px solid #000;
-  height: 20px;
-  width: 0;
-  background: rgba(198, 225, 243, 1.0);
-  background: radial-gradient(at center, rgba(198, 225, 243, 1.0), rgba(1, 15, 51, 1.0));
-  -webkit-box-shadow:4px 4px 4px 0px rgba(62,66,66,0.63);
-  -moz-box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
-}
-
-@keyframes load-6 {
-  0% { width: 0; }
-  100% { width: 60%; }
-}
-
-.circle {
-  border: 1px solid #0f0f0f;
-  /*background: #f34444;*/
-  border-radius: 35px;
-  padding:10px;
-  color: var(--text-white);
-  font-size: 14px;
-  font-weight: 500;
-  background: rgba(198, 225, 243, 1.0);
-  background: radial-gradient(at center, rgba(198, 225, 243, 1.0), rgba(1, 15, 51, 1.0));
-  -webkit-box-shadow:4px 4px 4px 0px rgba(62,66,66,0.63);
-  -moz-box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
-}
-.circle-awal {
-  width: 90px;
-  height: 45px;
-  padding:8px;
-  color:#000000;
-  font-size: 16px;
-  font-weight: 500;
-}
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
-#portfolio{
-  font-weight: 100;
-  padding: 10% 0;
-}
-.portfolio .portfolio-item {
-  margin-bottom: 30px;
-}
-
-.portfolio #portfolio-flters {
-  padding: 0;
-  margin: 0 auto 20px auto;
-  list-style: none;
-  text-align: center;
-}
-
-.portfolio #portfolio-flters li {
-  cursor: pointer;
-  display: inline-block;
-  padding: 8px 15px 10px 15px;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1;
-  text-transform: uppercase;
-  color: #222222;
-  margin-bottom: 5px;
-  transition: all 0.3s ease-in-out;
-  border-radius: 3px;
-}
-
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
-  color: #000000;
-  border: 1px solid black;
-}
-
-.portfolio #portfolio-flters li:last-child {
-  margin-right: 0;
-}
-
-.portfolio .portfolio-wrap {
-  transition: 0.3s;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  background: rgba(34, 34, 34, 0.6);
-}
-
-.portfolio .portfolio-wrap::before {
-  content: "";
-  background: rgba(34, 34, 34, 0.6);
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  transition: all ease-in-out 0.3s;
-  z-index: 2;
-  opacity: 0;
-}
-
-.portfolio .portfolio-wrap img {
-  transition: all ease-in-out 0.3s;
-}
-
-.portfolio .portfolio-wrap .portfolio-info {
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 3;
-  transition: all ease-in-out 0.3s;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
-  padding: 20px;
-}
-
-.portfolio .portfolio-wrap .portfolio-info h4 {
-  font-size: 20px;
-  color : var(--text-white);
-  font-weight: 600;
-}
-
-.portfolio .portfolio-wrap .portfolio-info p {
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 14px;
-  text-transform: uppercase;
-  padding: 0;
-  margin: 0;
-  font-style: italic;
-}
-
-.portfolio .portfolio-wrap .portfolio-links {
-  text-align: center;
-  z-index: 4;
-}
-
-.portfolio .portfolio-wrap .portfolio-links a {
-  color : var(--text-white);
-  margin: 0 5px 0 0;
-  font-size: 28px;
-  display: inline-block;
-  transition: 0.3s;
-}
-
-.portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #3498db;
-}
-
-.portfolio .portfolio-wrap:hover::before {
-  opacity: 1;
-}
-
-.portfolio .portfolio-wrap:hover img {
-  transform: scale(1.2);
-}
-
-.portfolio .portfolio-wrap:hover .portfolio-info {
-  opacity: 1;
-}
-
- /*--------------------------------------------------------------
-  # Contact us
--------------------------------------------------------------*/
-  #contact{
+  #intro .img-fluid{
+    max-width: 130%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(3px 10px 14px  var(--text-white));
+  }
+  
+  #intro .typing-text{
+    color: var(--text-intro);
+    font-weight: 400;
+  }
+  #intro .text-right{
+    text-align: right;
+  }
+   
+  @media (max-width: 600px) {
+      #intro {
+        width: 100%;      
+        min-height: 110vh;
+        text-align: center;
+      }
+      
+      #intro .text-right{
+        text-align: center;
+      }
+      #intro h1{
+        font-size: 35px;
+        margin-top:20%;
+        color: #024069;
+     }
+     #intro .fa-brands{
+      font-size: 25px;
+      color :#024069;
+     }
+  }
+  /*--------------------------------------------------------------
+  # Sections General
+  --------------------------------------------------------------*/
+  section {
+      padding: 80px 0;
+      overflow: hidden;
+    }
+    
+    .section-title {
+      padding-bottom: 40px;
+    }
+    
+    .section-title h2 {
+      padding: 0;
+      line-height: 1px;
+      margin: 0 0 5px 0;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--text-hitam);
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 400;
+      filter: drop-shadow(3px 10px 14px  var(--text-white));
+    }
+    
+    .section-title h2::after/*, .section-title h2::before */{
+      content: "";
+      width: 120px;
+      height: 3px;
+      display: inline-block;
+      background: #ffde9e;
+      margin: 4px 10px;
+    }
+    
+    .section-title p {
+      margin: 0;
+      margin: 0;
+      font-size: 36px;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 100;
+      color: var(--text-hitam);
+    }
+    
+    .btn{    
+      margin-top: 35px;
+      border-radius: 5px;
+    }
+    
+    .btn{    
+      margin-top: 35px;
+      border-radius: 5px;
+      color: var(--text-white);
+      background: var(--text-merah);
+      filter: drop-shadow(3px 10px 14px  var(--text-white));
+      cursor: -webkit-grab; cursor: grab;
+    }
+  
+    .btn:hover{    
+      background: radial-gradient(at center, rgba(198, 225, 243, 1.0), rgba(1, 15, 51, 1.0));
+      -webkit-box-shadow:4px 4px 4px 0px rgba(62,66,66,0.63);
+      -moz-box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
+      box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
+      filter: drop-shadow(3px 10px 14px  var(--text-white));
+      cursor: -webkit-grab; cursor: grab;
+    }
+    img{border-radius: 5px;}
+    /*--------------------------------------------------------------
+    # About
+    --------------------------------------------------------------*/
+    #about{
+      font-weight: 100;
+      padding: 7% 0;
+      font-family: 'Raleway';
+      font-style: normal;
+    }
+    #about .img-fluid{
+      max-width: 100%;
+      height:100%;
+      margin-top :0;
+      filter: drop-shadow(3px 10px 14px #313131);
+    }
+    #about h2{
+      font-weight: 500;
+      font-size: 40px;
+      padding-bottom: 20px;
+    }
+    #about .cards .card{
+        height: 310px;
+        text-align:center;
+        color:var(--text-hitam);
+        color : var(--text-hitam);
+        font-weight: 400;
+        background: #f0eeee;
+        padding-top: 1px;
+    
+        -webkit-box-shadow: 0px 0px 3px 3px rgba(183, 183, 186, 1);
+        -moz-box-shadow: 0px 0px 3px 3px rgba(183, 183, 186, 1);
+        box-shadow: 0px 0px 3px 3px rgba(183, 183, 186, 1);
+      }
+    
+    #about  .cards .card:hover{
+        background: rgba(198, 225, 243, 1.0);
+        background: radial-gradient(at center, rgba(198, 225, 243, 1.0), rgba(1, 15, 51, 1.0));
+        -webkit-box-shadow:4px 4px 4px 0px rgba(62,66,66,0.63);
+        -moz-box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
+        box-shadow: 10px 10px 10px rgb(46, 46, 46);
+        color: var(--text-white);
+        transform: scale(1.1, 1.1);
+      }
+      
+    #about .cards .card .card-body i{ 
+        text-align: center;
+        font-size: 25px;
+        border: 1px solid #000;
+        border-radius: 35px;
+        padding:15px;
+        margin: 2% 2%;
+        line-height: 1;
+        color: var(--text-hitam);
+    
+        background: radial-gradient(at center, rgba(198, 225, 243, 1.0), rgba(1, 15, 51, 1.0));
+        -webkit-box-shadow:4px 4px 4px 0px rgba(62,66,66,0.63);
+        -moz-box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
+        box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
+        filter: drop-shadow(3px 10px 14px  var(--text-white));
+      }
+    #about .cards .card p{
+        font-weight: 300;
+        text-align: center;
+        padding: 2% 2% 2% 2%;
+      }
+    #about  #about .g-md-5{
+        margin:auto;
+      }
+  
+  /*--------------------------------------------------------------
+   skills
+  --------------------------------------------------------------*/
+  #skills{
     font-weight: 100;
     padding: 7% 0;
     font-family: 'Raleway';
     font-style: normal;
-    background:url("https://pitungbtw.github.io/assets/img/footer.webp") fixed center;
-    background-size: cover;
   }
-
-  #contact .card {
-    background: var(--background-navbar);
-    color: var(--text-white);
+  #skills h2{
     font-weight: 500;
-    backdrop-filter: blur(7px);
-  -webkit-backdrop-filter: blur(7px);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-    
+    font-size: 40px;
+    padding-bottom: 20px;
   }
-
-  #contact .card h2 {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    line-height: 1px;
-    margin: auto;
-    letter-spacing: 2px;
-    text-transform: capitalize;
-    color: var(--text-white);
-    font-weight: 500;
-    filter: drop-shadow(3px 10px 14px  var(--text-white));
-  }
-  #contact .card .form-control{
-    background: var(--background-navbar);
-  }
-  /*---------------------------------------------------------------------------------------------------------------
-  footer
-  ---------------------------------------------------------------------------------------------------------------*/
-  footer{
-    
-    height: 100px;
-    width: 100%;
-    background:url("https://pitungbtw.github.io/assets/img/footer.webp") fixed center;
-    background-size: cover;
-  }
-
-  .bayang {
-    width: 100%;
-    height: 100px;
-    text-align: center;
-
-    font-weight: 300;
-    visibility: visible;
-    text-decoration: none;
-    background: var(--background-navbar);
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(7px);
-    -webkit-backdrop-filter: blur(7px);
-  }
-
-  .Copyright {
-    color:var(--text-white);
-  }
-  footer .text-center .btn{
+  
+  #skills .ri-code-box-fill, .ri-html5-fill, .ri-article-fill{
+    font-size: 40px;
+    border: 1px solid #000;
     border-radius: 50px;
-    margin: 3px 3px;
-    margin-top: 20px;
-    filter: none;
-  }
-  
-  /*-----------------------------------------------------------------
-  button scroll up
-  ------------------------------------------------------------------*/
-  #myBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 99;
-    font-size: 16px;
-    border: none;
-    outline: none;
-    background-color: var(--text-merah);
+    padding:10px;
     color: var(--text-white);
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 4px;
-  }
-  
-  #myBtn:hover {
+    background: rgba(198, 225, 243, 1.0);
     background: radial-gradient(at center, rgba(198, 225, 243, 1.0), rgba(1, 15, 51, 1.0));
     -webkit-box-shadow:4px 4px 4px 0px rgba(62,66,66,0.63);
     -moz-box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
-    box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
-    filter: drop-shadow(3px 10px 14px  var(--text-white));
-    cursor: -webkit-grab; cursor: grab;
   }
+  
+  #skills ol ul {
+    color: var(--text-hitam);
+    font-weight: 500;
+  }
+  .progress {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    padding: 0 15px;
+    /*display: flex;*/
+    height: 60px;
+    width: auto;
+  }
+  
+  .progress-value-1 {
+    animation: load-1 3s normal forwards;
+    border-radius: 50px;
+    border: 1px solid #000;
+    height: 20px;
+    width: 0;
+    background: rgba(198, 225, 243, 1.0);
+    background: radial-gradient(at center, rgba(198, 225, 243, 1.0), rgba(1, 15, 51, 1.0));
+    -webkit-box-shadow:4px 4px 4px 0px rgba(62,66,66,0.63);
+    -moz-box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
+  }
+  
+  @keyframes load-1 {
+    0% { width: 0; }
+    100% { width: 80%; }
+  }
+  
+  
+  .progress-value-2 {
+    animation: load-2 3s normal forwards;
+    border-radius: 50px;
+    border: 1px solid #000;
+    height: 20px;
+    width: 0;
+    background: rgba(198, 225, 243, 1.0);
+    background: radial-gradient(at center, rgba(198, 225, 243, 1.0), rgba(1, 15, 51, 1.0));
+    -webkit-box-shadow:4px 4px 4px 0px rgba(62,66,66,0.63);
+    -moz-box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
+  }
+  
+  @keyframes load-2 {
+    0% { width: 0; }
+    100% { width: 75%; }
+  }
+  
+  .progress-value-3 {
+    animation: load-3 3s normal forwards;
+    border-radius: 50px;
+    border: 1px solid #000;
+    height: 20px;
+    width: 0;
+    background: rgba(198, 225, 243, 1.0);
+    background: radial-gradient(at center, rgba(198, 225, 243, 1.0), rgba(1, 15, 51, 1.0));
+    -webkit-box-shadow:4px 4px 4px 0px rgba(62,66,66,0.63);
+    -moz-box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
+  }
+  
+  @keyframes load-3 {
+    0% { width: 0; }
+    100% { width: 80%; }
+  }
+  
+  .progress-value-4 {
+    animation: load-4 3s normal forwards;
+    border-radius: 50px;
+    border: 1px solid #000;
+    height: 20px;
+    width: 0;
+    background: rgba(198, 225, 243, 1.0);
+    background: radial-gradient(at center, rgba(198, 225, 243, 1.0), rgba(1, 15, 51, 1.0));
+    -webkit-box-shadow:4px 4px 4px 0px rgba(62,66,66,0.63);
+    -moz-box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
+  }
+  
+  @keyframes load-4 {
+    0% { width: 0; }
+    100% { width: 75%; }
+  }
+  
+  .progress-value-5 {
+    animation: load-5 3s normal forwards;border-radius: 50px;
+    border: 1px solid #000;
+    height: 20px;
+    width: 0;
+    background: rgba(198, 225, 243, 1.0);
+    background: radial-gradient(at center, rgba(198, 225, 243, 1.0), rgba(1, 15, 51, 1.0));
+    -webkit-box-shadow:4px 4px 4px 0px rgba(62,66,66,0.63);
+    -moz-box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
+  }
+  
+  @keyframes load-5 {
+    0% { width: 0; }
+    100% { width: 75%; }
+  }
+  
+  .progress-value-6 {
+    animation: load-6 3s normal forwards;
+    border-radius: 50px;
+    border: 1px solid #000;
+    height: 20px;
+    width: 0;
+    background: rgba(198, 225, 243, 1.0);
+    background: radial-gradient(at center, rgba(198, 225, 243, 1.0), rgba(1, 15, 51, 1.0));
+    -webkit-box-shadow:4px 4px 4px 0px rgba(62,66,66,0.63);
+    -moz-box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
+  }
+  
+  @keyframes load-6 {
+    0% { width: 0; }
+    100% { width: 60%; }
+  }
+  
+  .circle {
+    border: 1px solid #0f0f0f;
+    /*background: #f34444;*/
+    border-radius: 35px;
+    padding:10px;
+    color: var(--text-white);
+    font-size: 14px;
+    font-weight: 500;
+    background: rgba(198, 225, 243, 1.0);
+    background: radial-gradient(at center, rgba(198, 225, 243, 1.0), rgba(1, 15, 51, 1.0));
+    -webkit-box-shadow:4px 4px 4px 0px rgba(62,66,66,0.63);
+    -moz-box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
+  }
+  .circle-awal {
+    width: 90px;
+    height: 45px;
+    padding:8px;
+    color:#000000;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  /*--------------------------------------------------------------
+  # Portfolio
+  --------------------------------------------------------------*/
+  #portfolio{
+    font-weight: 100;
+    padding: 10% 0;
+  }
+  .portfolio .portfolio-item {
+    margin-bottom: 30px;
+  }
+  
+  .portfolio #portfolio-flters {
+    padding: 0;
+    margin: 0 auto 20px auto;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .portfolio #portfolio-flters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 15px 10px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #222222;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 3px;
+  }
+  
+  .portfolio #portfolio-flters li:hover,
+  .portfolio #portfolio-flters li.filter-active {
+    color: #000000;
+    border: 1px solid black;
+  }
+  
+  .portfolio #portfolio-flters li:last-child {
+    margin-right: 0;
+  }
+  
+  .portfolio .portfolio-wrap {
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background: rgba(34, 34, 34, 0.6);
+  }
+  
+  .portfolio .portfolio-wrap::before {
+    content: "";
+    background: rgba(34, 34, 34, 0.6);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all ease-in-out 0.3s;
+    z-index: 2;
+    opacity: 0;
+  }
+  
+  .portfolio .portfolio-wrap img {
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .portfolio .portfolio-wrap .portfolio-info {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    transition: all ease-in-out 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .portfolio .portfolio-wrap .portfolio-info h4 {
+    font-size: 20px;
+    color : var(--text-white);
+    font-weight: 600;
+  }
+  
+  .portfolio .portfolio-wrap .portfolio-info p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+  }
+  
+  .portfolio .portfolio-wrap .portfolio-links {
+    text-align: center;
+    z-index: 4;
+  }
+  
+  .portfolio .portfolio-wrap .portfolio-links a {
+    color : var(--text-white);
+    margin: 0 5px 0 0;
+    font-size: 28px;
+    display: inline-block;
+    transition: 0.3s;
+  }
+  
+  .portfolio .portfolio-wrap .portfolio-links a:hover {
+    color: #3498db;
+  }
+  
+  .portfolio .portfolio-wrap:hover::before {
+    opacity: 1;
+  }
+  
+  .portfolio .portfolio-wrap:hover img {
+    transform: scale(1.2);
+  }
+  
+  .portfolio .portfolio-wrap:hover .portfolio-info {
+    opacity: 1;
+  }
+  
+   /*--------------------------------------------------------------
+    # Contact us
+  -------------------------------------------------------------*/
+    #contact{
+      font-weight: 100;
+      padding: 7% 0;
+      font-family: 'Raleway';
+      font-style: normal;
+      background:url("https://pitungbtw.github.io/assets/img/footer.webp") fixed center;
+      background-size: cover;
+    }
+  
+    #contact .card {
+      background: var(--background-navbar);
+      color: var(--text-white);
+      font-weight: 500;
+      backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+      
+    }
+  
+    #contact .card h2 {
+      padding-top: 5%;
+      padding-bottom: 5%;
+      line-height: 1px;
+      margin: auto;
+      letter-spacing: 2px;
+      text-transform: capitalize;
+      color: var(--text-white);
+      font-weight: 500;
+      filter: drop-shadow(3px 10px 14px  var(--text-white));
+    }
+    #contact .card .form-control{
+      background: var(--background-navbar);
+    }
+    /*---------------------------------------------------------------------------------------------------------------
+    footer
+    ---------------------------------------------------------------------------------------------------------------*/
+    footer{
+      
+      height: 100px;
+      width: 100%;
+      background:url("https://pitungbtw.github.io/assets/img/footer.webp") fixed center;
+      background-size: cover;
+    }
+  
+    .bayang {
+      width: 100%;
+      height: 100px;
+      text-align: center;
+  
+      font-weight: 300;
+      visibility: visible;
+      text-decoration: none;
+      background: var(--background-navbar);
+      border-top: 1px solid rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(7px);
+      -webkit-backdrop-filter: blur(7px);
+    }
+  
+    .Copyright {
+      color:var(--text-white);
+    }
+    footer .text-center .btn{
+      border-radius: 50px;
+      margin: 3px 3px;
+      margin-top: 20px;
+      filter: none;
+    }
+    
+    /*-----------------------------------------------------------------
+    button scroll up
+    ------------------------------------------------------------------*/
+    #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 99;
+      font-size: 16px;
+      border: none;
+      outline: none;
+      background-color: var(--text-merah);
+      color: var(--text-white);
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 4px;
+    }
+    
+    #myBtn:hover {
+      background: radial-gradient(at center, rgba(198, 225, 243, 1.0), rgba(1, 15, 51, 1.0));
+      -webkit-box-shadow:4px 4px 4px 0px rgba(62,66,66,0.63);
+      -moz-box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
+      box-shadow: 4px 4px 4px 0px rgba(62,66,66,0.63);
+      filter: drop-shadow(3px 10px 14px  var(--text-white));
+      cursor: -webkit-grab; cursor: grab;
+    }
+  
