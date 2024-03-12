@@ -577,6 +577,89 @@ main{
    /*--------------------------------------------------------------
     # Contact us
   -------------------------------------------------------------*/
+#contact{
+    font-weight: 100;
+    padding: 7% 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    background:url("https://pitungbtw.github.io/assets/img/footer.webp") fixed center;
+    background-size: cover;
+    color: var(--text-hitam);
+  }
+
+  #contact .card {
+    background: var(--background-navbar);
+    padding: 15px 10px;
+    color: var(--text-white);
+    font-weight: 500;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(7px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    
+  }
+  
+
+  #contact .card h2 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    line-height: 1px;
+    margin: auto;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: var(--text-white);
+    font-weight: 500;
+    filter: drop-shadow(3px 10px 14px  var(--text-white));
+  }
+
+  /*
+.inputbox {
+    position: relative;
+    margin: 10px;
+    padding: 0 50px 0;
+    max-width: 100%;
+    filter: drop-shadow(3px 10px 14px  var(--text-white));
+}
+
+
+.inputbox input {
+  width: 90%;
+  height: 40px;
+  font-size: 1rem;
+  left: 10px;
+  margin: 0 70px ;
+  color: var(--text-white);
+  border-radius: 5px;
+}
+
+.inputbox label {
+  position: absolute;
+  left: 25px;
+  color: var(--text-white);
+  font-size: 1.2rem;
+  top: 5px;
+}
+.inputbox i {
+  position: absolute;
+  left: 0;
+  color: var(--text-white);
+  font-size: 1.2rem;
+  top: 10px;
+}
+
+.inputbox textarea {
+  width: 90%;
+  font-size: 1rem;
+  left: 10px;
+  margin: 0 70px ;
+  color: var(--text-white);
+  border-radius: 5px;
+}
+*/
+#contact .card .form-control{
+    background: transparent;
+    color: var(--text-white);
+  }
+/*
     #contact{
       font-weight: 100;
       padding: 7% 0;
@@ -614,6 +697,7 @@ main{
 #contact .card textarea, input{
 color: var(--text-white); 
 }
+*/
     /*---------------------------------------------------------------------------------------------------------------
     footer
     ---------------------------------------------------------------------------------------------------------------*/
