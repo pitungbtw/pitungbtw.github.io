@@ -608,8 +608,9 @@ main{
       filter: drop-shadow(3px 10px 14px  var(--text-white));
     }
     #contact .card .form-control{
-      background: var(--background-navbar);
-    }
+    background: transparent;
+    color: var(--text-white);
+  }
     /*---------------------------------------------------------------------------------------------------------------
     footer
     ---------------------------------------------------------------------------------------------------------------*/
