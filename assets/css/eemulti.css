@@ -10,7 +10,10 @@
       font-style: normal;
       text-decoration: none;
   }
-  
+main{
+  background:linear-gradient(rgba(214, 212, 212, 0.267), rgba(228, 225, 225, 0.295)),url("https://ubuntuforums.org/images/ubuntu-VB4/bg_dotted.gif") fixed center;
+}
+
   h1 {
       font-style: normal;
       font-weight: 800;
