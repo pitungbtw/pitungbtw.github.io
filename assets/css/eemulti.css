@@ -630,10 +630,9 @@ main{
       width: 100%;
       height: 100px;
       text-align: center;
-  
+    text-decoration: none;  
       font-weight: 300;
-      visibility: visible;
-      text-decoration: none;
+      visibility: visible;      
       background: var(--background-navbar);
       border-top: 1px solid rgba(255, 255, 255, 0.5);
       backdrop-filter: blur(7px);
